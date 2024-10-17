@@ -1,0 +1,19 @@
+.root {
+    --color-white: hsl(0, 0%, 100%);
+    --color-slate-300: hsl(212, 45%, 89%);
+    --color-slate-500: hsl(216, 15%, 48%);
+    --color-slate-900: hsl(218, 44%, 22%);
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400; /* peso normal */
+    background-color: var(--color-slate-300);
+}
+
+.card{
+    background-color: var(--color-slate-500);
+    width: 200px;
+    height: 200px;
+}
+

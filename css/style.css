@@ -1,4 +1,4 @@
-.root {
+:root {
     --color-white: hsl(0, 0%, 100%);
     --color-slate-300: hsl(212, 45%, 89%);
     --color-slate-500: hsl(216, 15%, 48%);
@@ -7,13 +7,47 @@
 
 body {
     font-family: 'Outfit', sans-serif;
-    font-weight: 400; /* peso normal */
+    font-weight: 400; /* Peso normal */
     background-color: var(--color-slate-300);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Asegura que se ocupe toda la altura de la pantalla */
+    margin: 0;
 }
 
-.card{
-    background-color: var(--color-slate-500);
-    width: 200px;
-    height: 200px;
+.card {
+    background-color: var(--color-white);
+    width: 180px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añadir una sombra para darle un efecto de tarjeta */
 }
+
+.qr-image {
+    width: 45vw;
+    border-radius: 10px;
+}
+
+.parrafo {
+    text-align: center;
+    color: var(--color-slate-500);
+    margin: 0;
+    font-size: 13px;
+}
+
+.titulo{
+    color: var(--color-slate-900);
+    font-size: 15px;
+    margin: 0;
+    margin-bottom: -20px;
+
+}
+
+
 

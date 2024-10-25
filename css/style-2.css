@@ -67,7 +67,6 @@ body {
 }
 
 .Texto p {
-    font-size: 1rem;
     color: var(--color-slate-500);
     margin: 0;
     line-height: 1.5;
